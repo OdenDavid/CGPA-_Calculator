@@ -1,0 +1,19 @@
+GP calculator
+Features:
+1. Ability to calculate GPA for a semester
+2. Ability to calculate CGPA for a session
+3. Ability to manually change the grade points
+
+Page 1
+Landing page -> Welcome to my GPA calculator!
+
+Page 2
++Add semester(a button on the main frame) -> Creates a floating scroll frame on top of the main scroll frame and adjusts appropriately
+each scroll frame will have an x button to delete itself and will be named semester 1,2,3,...,n
++Add course(a button on each scroll/semester frame) -> adds another frame(couse frame) on top of the semster frame
+course frame -> each course frame has 4 entry widgets 
+		1. course code(optional)
+		2. credit unit
+		3. score or grade
+Get GPA button(a button on each semester frame) -> calculates the GPA for each semester
+Get CGPA button(a button on the main frame) -> calculates the CGPA for all semesters   
